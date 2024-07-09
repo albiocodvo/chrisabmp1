@@ -9,7 +9,7 @@ body {
   background: linear-gradient(#3e476c, #000) !important;
 }
 /* Changing link color */
-.nav-item .nav-link {
+.nav-link {
   color: var(--white-color);
 }
 #navbar {
@@ -18,9 +18,11 @@ body {
   top: 0;
   width: 100%;
   transition: top 0.3s;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-#navbar a {
+#navbar .nav-link {
   float: left;
   display: block;
   color: white;
@@ -30,15 +32,32 @@ body {
   border-radius: 5px;
 }
 
-#navbar a:hover {
+#navbar .nav-link:hover {
   background-color: #ddd;
   color: black;
 }
+
 .navbar-brand img {
   height: auto;
   width: 12%;
 }
 
+@media screen and (max-width: 768px) {
+  #navbar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .navbar-brand {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .navbar-toggler {
+    display: block;
+    margin: 0 auto;
+  }
+}
 /* Hero section background image */
 .hero {
   height: 100vh;
