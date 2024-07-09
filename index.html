@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <!-- Linking CSS File -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- Fontawesome link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  </head>
+  <body>
+    <!-- Header & Navbar -->
+    <header class="bg-transparent fixed-top">
+      <nav class="container-xxl navbar navbar-expand-lg py-3 bg-transparent navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold fs-3" href="#"> <img src="./images&videos/Logo2.png" alt="Chris-AB Logo" class="align-items-center">Chris-ab.com</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcontent" aria-controls="navbarcontent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarcontent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#work">Work History</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#projects">Sample Projects</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#cv">Background</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#contact">Let's Talk!</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero or Showcase Section -->
+    <section id="hero" class="hero d-flex flex-column align-items-center justify-content-center">
+      <div class="col-6">
+        <h1 class="display-1 text-white fw-bold">Hi, I'm Christian Al</h1>
+        <h2 class="display-6 text-white fw-bold">Aspiring Full-Stack <br /> Web Developer</h2>
+        <div class="btn-box" style="margin-top: 40px;">
+            <a href="#contact">Hire Me</a>
+            <a href="#skills">Let's Start!</a>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section class="container py-5" id="skills">
+      <div class="row mt-4 py-3">
+        <div class="col-12 d-flex flex-column text-center justify-content-center">
+          <h2 class="text-white display-2 fw-bold">Skills</h2>
+        </div>
+        <div class="spinner d-flex flex-column align-items-center">
+        <div class="spinner-border text-white" role="status" style="margin-left: 10px; margin-bottom: 20px;">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <h5 class="text-white fw-normal py-2 fst-italic">Continuously improving my skills and knowledge in the field.</h5>
+        </div>
+      </div>
+      <div class="container" style="margin-top: 40px;">
+        <div class="row">
+            <div class="skills-card col-lg-4 d-flex align-items-center text-center" style="margin-bottom: 20px;">
+              <div class="col card" style="width: 13rem;">
+                <i class='bx bxl-html5 bx-lg'></i>
+                <h5 class="card-title">HTML5</h5></a>
+              </div>
+            </div>
+            <div class="skills-card col-lg-4 d-flex align-items-center text-center" style="margin-bottom: 20px;">
+              <div class="col card" style="width: 12rem;">
+                <i class='bx bxl-css3 bx-lg'></i>
+                <h5 class="card-title">CSS3</h5></a>
+              </div>
+            </div>
+            <div class="skills-card col-lg-4 d-flex align-items-center text-center" style="margin-bottom: 20px;">
+              <div class="col card" style="width: 12rem;">
+                <i class='bx bxl-javascript bx-lg' ></i>
+                <h5 class="card-title">Javascrpt</h5></a>
+              </div>
+            </div>
+            <div class="skills-card col-lg-4 d-flex align-items-center text-center" style="margin-bottom: 20px;">
+              <div class="col card" style="width: 12rem;">
+                <i class='bx bxl-bootstrap bx-lg' ></i>
+                <h5 class="card-title">Bootstrap</h5></a>
+              </div>
+            </div>
+            <div class="skills-card col-lg-4 d-flex align-items-center text-center" style="margin-bottom: 20px;">
+              <div class="col card" style="width: 12rem;">
+                <i class='bx bxl-php bx-lg' ></i>
+                <h5 class="card-title">PHP</h5></a>
+              </div>
+            </div>
+            <div class="skills-card col-lg-4 d-flex align-items-center text-center" style="margin-bottom: 20px;">
+              <div class="col card" style="width: 12rem;">
+                <i class='bx bxl-python bx-lg' ></i>
+                <h5 class="card-title">Python</h5></a>
+              </div>
+            </div>
+            <div class="skills-card col-lg-4 d-flex align-items-center text-center" style="margin-bottom: 20px;">
+              <div class="col card" style="width: 12rem;">
+                <i class='bx bxl-wordpress bx-lg'></i>
+                <h5 class="card-title">WordPress</h5></a>
+              </div>
+            </div>
+            <div class="skills-card col-lg-4 d-flex align-items-center text-center" style="margin-bottom: 20px;">
+              <div class="col card" style="width: 12rem;">
+                <i class='bx bxl-adobe bx-lg' ></i>
+                <h5 class="card-title">Adobe Apps</h5></a>
+              </div>
+            </div>
+            <div class="skills-card col-lg-4 d-flex align-items-center text-center" style="margin-bottom: 20px;">
+              <div class="col card" style="width: 12rem;">
+                <i class='bx bx-headphone bx-lg'></i>
+                <h5 class="card-title">Customer Service</h5></a>
+              </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+        <!-- Work History Section -->
+    <section class="container py-5 text-white" id="work">
+        <div class="row mt-4 py-3">
+            <div class="col-12 d-flex flex-column text-center">
+                <h2 class="display-2 fw-bold">Work History</h2>
+                <h5 class="text-white fw-normal py-2 fst-italic">Learn more about me, my background, and what motivates me.</h5>
+              </div>
+            </div>
+           
+        <div class="timeline text-dark">
+            <div class="timeline-item text-center">
+              <div class="timeline-content">
+                <p>May 2023 - Present</p>
+                <h2>Customer Support Hero - Rivalry Corp.</h2>
+                <p>Deliver memorable customer support, in any language - Rivalry's user-base is global and multilingual, you will be expected to provide top quality support to all of our global customers.</p>
+              </div>
+            </div>
+            <div class="timeline-item text-center">
+              <div class="timeline-content">
+                <p>August 2022 - May 2023</p>
+                <h2>Logistics VA - Straightforwarding.com</h2>
+                <p>Provide assistance to on shore dispatchers in filing documents, answering phone calls from truckers and customers, and daily tracking of the shipments</p>
+              </div>
+            </div>
+            <div class="timeline-item text-center">
+                <div class="timeline-content">
+                  <p>March 2022 - January 2023</p>
+                  <h2>Player Support Specialist - Rockstar Games</h2>
+                  <p>Promptly assist users with any in-game or account-related concerns via chat/email; resolve player complaints and provide accurate information</p>
+                </div>
+              </div>
+              <div class="timeline-item text-center">
+                <div class="timeline-content">
+                  <p>July 2022 - October 2022</p>
+                  <h2>Account Manager - All Time Design</h2>
+                  <p>Build and maintain good relationships with partner clients, produce high-quality cold email outreach templates, oversee the deliveries of designs to the clients in accordance to their requests, and framing the entire internal SOP for streamlined process.</p>
+                </div>
+              </div>
+            <!-- Add more timeline items as needed -->
+          </div>
+          
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="container py-5" id="projects">
+      <div class="row mt-4 py-3">
+        <div class="col-12 d-flex flex-column text-center justify-content-center">
+          <h2 class="text-white display-2 fw-bold">Sample Projects</h2>
+          <h5 class="text-white fw-normal py-2 fst-italic">A collection of projects I've worked on.</h5>
+        </div>
+        <div class="row mt-5 mx-0 justify-content-center align-items-center">
+            <div class="container">
+                <div class="row">
+                  <div class="col-lg-4 d-flex align-items-stretch skills-card">
+                    <div class="card">
+                      <img
+                        src="./images&videos/Screenshot 2024-07-01 at 3.45.24 PM.png"
+                        alt="Card image"
+                        style="width: 100%"
+                        class="card-img-top"
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center">KodeLedger</h4>
+                        <p class="card-text text-center">
+                          A fictitious website created using HTML and CSS
+                        </p>
+                        <div class="d-flex justify-content-between">
+                        <a href="https://regal-licorice-792904.netlify.app/" target="_blank" class="btn">Live Preview</a>
+                        <a href="https://github.com/albiocodvo/chriswebportfolio/tree/master/03KodeLedger" target="_blank" class="btn">Source Code</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-lg-4 d-flex align-items-stretch skills-card">
+                    <div class="card">
+                      <img
+                        src="./images&videos/Screenshot 2024-07-01 at 3.45.02 PM.png"
+                        alt="Card image"
+                        style="width: 100%"
+                        class="card-img-top"
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center">KodeNews</h4>
+                        <p class="card-text text-center">
+                          A fictitious website created using HTML, CSS
+                        </p>
+                        <div class="d-flex justify-content-between">
+                        <a href="https://kodenewschris.netlify.app/" target="_blank" class="btn">Live Preview</a>
+                        <a href="https://github.com/albiocodvo/kodenews" target="_blank" class="btn">Source Code</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="col-lg-4 d-flex align-items-stretch skills-card">
+                    <div class="card">
+                      <img
+                        src="./images&videos/Screenshot 2024-07-01 at 3.45.45 PM.png"
+                        alt="Card image"
+                        style="width: 100%"
+                        class="card-img-top"
+                      />
+                      <div class="card-body">
+                        <h4 class="card-title text-center">KodeResto</h4>
+                        <p class="card-text text-center">
+                          A fictitious website using HTML, CSS, and Bootstrap
+                        </p>
+                        <div class="d-flex justify-content-between">
+                        <a href="https://koderestowd103p.netlify.app/" target="_blank" class="btn">Live Preview</a>
+                        <a href="https://github.com/albiocodvo/koderesto" target="_blank" class="btn">Source Code</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      </div>      
+    </section>
+
+    <!-- Curriculum Vitae Section -->
+    <section class="container py-5 text-white" id="cv">
+      <div class="row mt-4 py-3">
+        <div class="col-12 d-flex flex-column text-center">
+          <h2 class="text-white display-2 fw-bold">Everything You Need to Know</h2>
+          <h5 class="text-white fw-normal py-2 fst-italic">A brief background check about me</h5>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 mt-5 order-lg-0 order-1 text-center">
+          <img class="img-fluid rounded-circle border border-5 border-dark-subtle" src="images&videos/profile-pic.png" alt="profile-img">
+          <h2 class="mt-3">Christian Al Bioco</h2>
+          <ul class="list-unstyled contact-info">
+            <li><i class="fas fa-envelope me-2"></i> <a class="text-white" href="mailto: christianal.bioco@gmail.com" style="text-decoration: none;">christianal.bioco01@gmail.com</a></li>
+            <li><i class="fas fa-phone me-2"></i><a class="text-white" href="tel: +639292492852" style="text-decoration: none;"> +639292492852</a></li>
+            <li><i class="fas fa-map-marker-alt me-2"></i><a class="text-white" href="https://maps.app.goo.gl/n8vjqH339GXmKMTS7" target="_blank" style="text-decoration: none;"> Davao City</a></li>
+          </ul>
+          
+          <h5>Personal Interests</h5>
+          <ul class="list-unstyled">
+            <li>Web Development</li>
+            <li>Creative Designing</li>
+            <li>Espots Games</li>
+            <li>Movie Hits</li>
+            <li>Anime Binge Watching</li>
+
+          </ul>
+        </div>
+        <div class="col-lg-7 order-lg-1 order-0 mt-5 text-start">
+          <h3>About Me</h3>
+          <hr>
+          <p>I studied Software Development for a year at AMA Computer Learning Center, where I laid the foundation for my passion in web development. Over the past 7 years, I've gained diverse work experience, honing my skills in various industries. This blend of formal education and hands-on experience has equipped me with a unique perspective and a versatile skill set, ready to tackle any challenge in the tech world.</p>
+          
+          <h3>Education</h3>
+          <hr>
+          <dl>
+            <dt>2015 - 2016</dt>
+            <dd>AMA Computer Learning Center</dd>
+            <dd>SoftWare Development - Associate Course</dd>
+          </dl>
+          <dl>
+            <dt>2011 - 2015</dt>
+            <dd>Daniel R. Aguinaldo National High School</dd>
+            <dd>High School Graduate - ICT</dd>
+          </dl>
+          <h3>Additional Courses & Training</h3>
+          <hr>
+          <dl>
+            <dt>2024-Present</dt>
+            <dd>Full-Stack Web Development</dd>
+            <dd>KodeGo</dd>
+          </dl>
+        </div>
+      </div>      
+    </section>
+
+     <!-- Contact Section -->
+     <section class="py-5" id="contact">
+      <div class="container-xxl py-5">
+        <div class="col-12 d-flex flex-column text-center justify-content-center">
+          <h2 class="text-white display-2 fw-bold">Let's Connect!</h2>
+          <h5 class="text-white fw-normal py-2 fst-italic">Interested if I'd be the right fit for your team? Fill in this form and let's talk it out!</h5>
+        </div>
+        <div class="row pt-4 mt-5">
+          <div class="col-12">
+            <form action="#" method="POST">
+              <div class="row d-flex justify-content-center">
+                <div class="col-lg-6">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Enter Name*" required>
+                    <label for="floatingInput">Enter Name*</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingEmail" placeholder="Enter Email*" required>
+                    <label for="floatingEmail">Enter Email*</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="number" class="form-control" id="floatingPassword" placeholder="Enter Phone*" required>
+                    <label for="floatingPassword">Enter Phone*</label>
+                  </div>
+                </div>
+                <div class="form-floating col-lg-6">
+                  <textarea class="form-control" placeholder="Leave a comment here" id="floatingMessage" style="height: 205px" required></textarea>
+                  <label for="floatingMessage" class="px-4">Enter Message*</label>
+                </div>
+                <div class="col-12 mt-5 d-flex justify-content-center">
+                  <button class="btn btn-lg btn-outline-light">SEND MESSAGE</button>
+                </div>
+              </div>
+  
+            </form>
+          </div>
+        </div>
+       </div>
+     </section>
+
+     <!-- Scroll to Top function -->
+     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class='bx bxs-up-arrow'></i></button>
+
+     <!-- Footer -->
+     <footer class="bg-dark">
+      <div class="container-xxl flex-wrap pt-3 d-flex align-items-center justify-content-center justify-content-md-between">
+        <p class="text-white">Copyright © 2024 Chris.com</p>
+        <ul class="social-icons d-flex">
+          <a href="#" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><small><i class="fa-brands fa-twitter"></i></small></a>
+          <a href="#" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><small><i class="fa-brands fa-facebook-f"></i></small></a>
+          <a href="#" class="bg-primary mx-2 text-white d-flex align-items-center justify-content-center text-decoration-none rounded-circle"><small><i class="fa-brands fa-linkedin-in"></i></small></a>
+        </ul>
+      </div>
+     </footer>
+
+     <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+    
+     <!-- Bootstrap script link -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
