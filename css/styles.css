@@ -12,11 +12,28 @@ body {
 .nav-item .nav-link {
   color: var(--white-color);
 }
-
-.nav-item .nav-link:hover {
-  text-decoration: underline #fefefe 4px solid;
+#navbar {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
 }
 
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
 .navbar-brand img {
   height: auto;
   width: 12%;
