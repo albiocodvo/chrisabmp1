@@ -247,7 +247,7 @@ footer .social-icons a {
 
 /* Scroll to Top */
 
-#myBtn {
+/* #myBtn {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -266,4 +266,4 @@ footer .social-icons a {
 #myBtn:hover {
   background-color: #555;
   color: var(--white-color);
-}
+} */
